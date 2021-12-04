@@ -20,7 +20,7 @@ def main():
     for x in aprobados:
         aprob += x #Si quisieramos calcular la media de la CANTIDAD de aprobados, substituiriamos la "x" por "1".
     for x in suspensos:
-        suspe += x #Si quisieramos calcular la media de la CANTIDAD de aprobados, substituiriamos la "x" por "1".
+        suspe += x #Si quisieramos calcular la media de la CANTIDAD de suspensos, substituiriamos la "x" por "1".
     print("La media de aprobados es: ", aprob / alum)
     print("La media de suspensos es: ", suspe / alum)
     print("La cantidad de aprobados es: ", len(aprobados))
